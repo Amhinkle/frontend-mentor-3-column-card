@@ -15,6 +15,10 @@ body, button{
     padding: 10px 20px;
     cursor: pointer;
     transition: 300ms ease-in-out;
+    
+    h6{
+        font-size:1.125rem;
+    }
 
     &:hover {
         background: transparent;
@@ -22,7 +26,6 @@ body, button{
 
         h6{
             color: $transparentWhite;
-            font-size: 1.125rem;
         }
     }
 
