@@ -1,0 +1,148 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button{
+    font-family: $lexendDeca;
+}
+
+.btn {
+    background-color: $veryLightGray;
+    border: 2px solid $veryLightGray;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+
+    &:hover {
+        background: transparent;
+        color: white;
+
+        h9{
+            color: $transparentWhite;
+        }
+    }
+
+    @media (min-width: 992px){
+        margin-top: 75px;
+        height: 55px;
+        width: 150px;
+    }
+    
+}
+
+
+h1{
+    font-size: $fontHeader;
+    font-weight: $weightBold;
+    text-transform: uppercase;
+    color: $veryLightGray;
+}
+
+.orange{
+    background-color: $brightOrange;
+    color: $transparentWhite;
+    border-radius: 10px 10px 0 0;
+
+    .btn{
+        color: $brightOrange;
+    }
+
+    @media (min-width: 992px){
+        border-radius: 10px 0 0 10px;
+        height: 500px;  
+        width: 310px; 
+        
+        p{
+            height: 120px;
+            width: 215px;
+            }
+    }
+}
+
+.dark-cyan{
+    background-color: $darkCyan;
+    color: $transparentWhite;
+
+    .btn{
+        color: $darkCyan;
+    }
+
+    @media (min-width: 992px){
+        height: 500px;   
+        width: 310px;  
+
+        p{
+            height: 120px;
+            width: 215px;
+            }
+    }
+
+}
+
+.very-dark-cyan{
+    background-color: $veryDarkCyan;
+    color: $transparentWhite;
+    border-radius: 0 0 10px 10px;
+
+    .btn{
+        color: $veryDarkCyan;
+    }
+
+    @media (min-width: 992px){
+        border-radius: 0 10px 10px 0;  
+        height: 500px; 
+        width: 310px;   
+
+        p{
+        height: 120px;
+        width: 215px;
+        }
+    }
+}
+
+.container{
+    padding: 20px;
+
+    @media (min-width: 992px) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          max-width: 925px;
+          margin: auto;
+    }
+}
+
+.column{
+    padding: 30px;
+
+    img{
+        margin-bottom: 25px;
+    }
+
+    h1{
+        margin-bottom: 20px;
+        font-family: $bigShoulders;
+    }
+
+    p{
+        margin-bottom: 30px;
+
+        @media (min-width: 992px){
+            font-family: $lexendDeca;
+            line-height: 1.5rem;
+            padding-top: 45px;
+        }
+    }
+
+    @media (min-width: 992px){
+        padding: 45px;
+    }
+}
+
+
+
+
