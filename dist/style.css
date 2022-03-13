@@ -20,7 +20,7 @@ body, button {
   background: transparent;
   color: white;
 }
-.btn:hover h9 {
+.btn:hover h6 {
   color: rgba(255, 255, 255, 0.75);
 }
 @media (min-width: 992px) {
