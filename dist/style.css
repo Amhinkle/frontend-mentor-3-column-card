@@ -22,7 +22,7 @@ body, button {
 }
 .btn:hover h6 {
   color: rgba(255, 255, 255, 0.75);
-  font-size:14px;
+  font-size:1.125rem;
 }
 @media (min-width: 992px) {
   .btn {
