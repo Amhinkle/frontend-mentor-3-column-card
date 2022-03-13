@@ -17,7 +17,7 @@ body, button {
   transition: 300ms ease-in-out;
   
   h6{
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .btn:hover {
